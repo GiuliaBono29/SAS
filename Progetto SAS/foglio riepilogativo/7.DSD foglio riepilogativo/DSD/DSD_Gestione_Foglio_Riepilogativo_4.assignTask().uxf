@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>11</zoom_level>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>440</x>
+      <y>0</y>
+      <w>99</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>UI</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>462</x>
+      <y>66</y>
+      <w>44</w>
+      <h>1408</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;1260.0;20.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>473</x>
+      <y>99</y>
+      <w>308</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+assignTask(task, turn, cook?)</panel_attributes>
+    <additional_attributes>10.0;20.0;260.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>0</x>
+      <y>198</y>
+      <w>2167</w>
+      <h>1177</h>
+    </coordinates>
+    <panel_attributes>ALT
+[!user.isChef()]
+fg=#761C8C
+lw=2
+--
+
+-.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>473</x>
+      <y>220</y>
+      <w>308</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+throw UseCaseLogicExeption</panel_attributes>
+    <additional_attributes>10.0;20.0;260.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>759</x>
+      <y>66</y>
+      <w>33</w>
+      <h>1397</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;1250.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>759</x>
+      <y>110</y>
+      <w>22</w>
+      <h>1166</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>671</x>
+      <y>22</y>
+      <w>187</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>sheetMgr: 
+SheetManager</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>770</x>
+      <y>121</y>
+      <w>286</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+getCurrentUser( )</panel_attributes>
+    <additional_attributes>240.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>770</x>
+      <y>143</y>
+      <w>286</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+user</panel_attributes>
+    <additional_attributes>10.0;20.0;240.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1034</x>
+      <y>66</y>
+      <w>33</w>
+      <h>1397</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;1250.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1034</x>
+      <y>143</y>
+      <w>22</w>
+      <h>22</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>957</x>
+      <y>22</y>
+      <w>187</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>userMgr:
+UserManager
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>770</x>
+      <y>264</y>
+      <w>231</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+sheet=getCurrentSheet()</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0;40.0;40.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>473</x>
+      <y>341</y>
+      <w>308</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+throw UseCaseLogicExeption</panel_attributes>
+    <additional_attributes>10.0;20.0;260.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>1221</x>
+      <y>572</y>
+      <w>825</w>
+      <h>231</h>
+    </coordinates>
+    <panel_attributes>OPT
+[cook != null &amp;&amp; turn.containCook(cook)
+
+&amp;&amp; cook.isCook()]
+fg=#128C86
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1232</x>
+      <y>22</y>
+      <w>187</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>sheet:
+SummarySheet
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1309</x>
+      <y>66</y>
+      <w>33</w>
+      <h>1397</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;1250.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1496</x>
+      <y>22</y>
+      <w>187</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>task:
+Task
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1573</x>
+      <y>66</y>
+      <w>33</w>
+      <h>1397</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;1250.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>770</x>
+      <y>462</y>
+      <w>561</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+assignTask(task, turn, cook?)</panel_attributes>
+    <additional_attributes>10.0;20.0;490.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1309</x>
+      <y>484</y>
+      <w>22</w>
+      <h>660</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1320</x>
+      <y>517</y>
+      <w>275</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+assignTask(turn, cook?)</panel_attributes>
+    <additional_attributes>10.0;20.0;230.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1573</x>
+      <y>539</y>
+      <w>22</w>
+      <h>594</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1584</x>
+      <y>572</y>
+      <w>198</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+this.cookTask=cook</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0;40.0;40.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1738</x>
+      <y>22</y>
+      <w>187</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>turn:
+CookingTurn
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1815</x>
+      <y>66</y>
+      <w>33</w>
+      <h>1441</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;1290.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1815</x>
+      <y>660</y>
+      <w>22</w>
+      <h>143</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1584</x>
+      <y>638</y>
+      <w>253</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+assignTask(this)</panel_attributes>
+    <additional_attributes>10.0;20.0;210.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1826</x>
+      <y>682</y>
+      <w>198</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+turnTask.add(task)</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0;40.0;40.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>1221</x>
+      <y>825</y>
+      <w>825</w>
+      <h>275</h>
+    </coordinates>
+    <panel_attributes>OPT
+[(cook == null &amp;&amp; task.cooktask == null) ||
+
+(cook == null &amp;&amp; task.cooktask != null &amp;&amp; 
+
+turn.containCook(task.cooktask))]
+fg=#128C86
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1584</x>
+      <y>902</y>
+      <w>253</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+assignTask(this)</panel_attributes>
+    <additional_attributes>10.0;20.0;210.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1815</x>
+      <y>924</y>
+      <w>22</w>
+      <h>143</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1826</x>
+      <y>946</y>
+      <w>198</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+turnTask.add(task)</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0;40.0;40.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>44</x>
+      <y>330</y>
+      <w>2101</w>
+      <h>1012</h>
+    </coordinates>
+    <panel_attributes>ALT
+[sheet==null || !sheet.containTask(task)]
+fg=#761C8C
+lw=2
+--
+
+-.
+
+
+
+-.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1980</x>
+      <y>22</y>
+      <w>209</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>er:
+SheetEventReceiver
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2068</x>
+      <y>66</y>
+      <w>33</w>
+      <h>1540</h>
+    </coordinates>
+    <panel_attributes>lt=.
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;1380.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>770</x>
+      <y>1122</y>
+      <w>242</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+notifyTaskAssign(task)</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;10.0;60.0;40.0;20.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>770</x>
+      <y>1155</y>
+      <w>22</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>781</x>
+      <y>1188</y>
+      <w>1309</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+updateTaskAssign(task)
+</panel_attributes>
+    <additional_attributes>1170.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>616</x>
+      <y>1177</y>
+      <w>1496</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>for each
+er in receivers
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>2068</x>
+      <y>1199</y>
+      <w>22</w>
+      <h>22</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>44</x>
+      <y>396</y>
+      <w>264</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>[cook!=null &amp;&amp; !turn.containCook(cook)]
+style=wordwrap
+fontsize=11
+fg=#761C8C</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>473</x>
+      <y>407</y>
+      <w>308</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+throw SheetException</panel_attributes>
+    <additional_attributes>10.0;20.0;260.0;20.0</additional_attributes>
+  </element>
+</diagram>

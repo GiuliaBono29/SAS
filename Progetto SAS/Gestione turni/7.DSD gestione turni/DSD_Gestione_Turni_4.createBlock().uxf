@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>11</zoom_level>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>253</x>
+      <y>66</y>
+      <w>44</w>
+      <h>1661</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;1490.0;20.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>748</x>
+      <y>22</y>
+      <w>187</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>userMgr:
+UserManager
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>462</x>
+      <y>22</y>
+      <w>187</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>calendarMgr: 
+CalendarManager</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>550</x>
+      <y>66</y>
+      <w>33</w>
+      <h>1661</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;1490.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>825</x>
+      <y>66</y>
+      <w>33</w>
+      <h>1672</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;1500.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>825</x>
+      <y>143</y>
+      <w>22</w>
+      <h>22</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>550</x>
+      <y>110</y>
+      <w>22</w>
+      <h>1386</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>264</x>
+      <y>99</y>
+      <w>308</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+createBlock(turn1, turn2)</panel_attributes>
+    <additional_attributes>10.0;20.0;260.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>561</x>
+      <y>121</y>
+      <w>286</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+getCurrentUser( )</panel_attributes>
+    <additional_attributes>240.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>561</x>
+      <y>143</y>
+      <w>286</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+user</panel_attributes>
+    <additional_attributes>10.0;20.0;240.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>561</x>
+      <y>1331</y>
+      <w>341</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+notifyCookingTurnBlockAdded(turns)</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;10.0;60.0;40.0;20.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>572</x>
+      <y>1408</y>
+      <w>1408</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+updateCookingTurnBlockAdded(t)
+</panel_attributes>
+    <additional_attributes>1260.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>561</x>
+      <y>1375</y>
+      <w>22</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>407</x>
+      <y>1397</y>
+      <w>1595</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>for each
+er in receivers
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>561</x>
+      <y>1276</y>
+      <w>550</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+turns</panel_attributes>
+    <additional_attributes>10.0;20.0;480.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1287</x>
+      <y>22</y>
+      <w>154</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>turn1:
+Turn
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1353</x>
+      <y>66</y>
+      <w>33</w>
+      <h>1672</h>
+    </coordinates>
+    <panel_attributes>lt=.
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;1500.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>264</x>
+      <y>275</y>
+      <w>308</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+throw UseCaseLogicExeption</panel_attributes>
+    <additional_attributes>10.0;20.0;260.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1958</x>
+      <y>1419</y>
+      <w>22</w>
+      <h>22</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>264</x>
+      <y>220</y>
+      <w>308</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+throw UseCaseLogicExeption</panel_attributes>
+    <additional_attributes>10.0;20.0;260.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>561</x>
+      <y>330</y>
+      <w>308</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+calendar=this.getCurrentCalendar()</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0;40.0;40.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1001</x>
+      <y>22</y>
+      <w>187</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>calendar:
+Calendar
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1089</x>
+      <y>66</y>
+      <w>33</w>
+      <h>1683</h>
+    </coordinates>
+    <panel_attributes>lt=.
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;1510.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1089</x>
+      <y>407</y>
+      <w>22</w>
+      <h>891</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>253</x>
+      <y>1474</y>
+      <w>319</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+calendar</panel_attributes>
+    <additional_attributes>10.0;20.0;270.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>0</x>
+      <y>264</y>
+      <w>286</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>[this.getCurrentCalendar==null ||
+!this.getCurrentCalendar.containTurn(turn1) ||
+!this.getCurrentCalendar.containTurn(turn2)]
+style=wordwrap
+fontsize=11
+fg=#761C8C</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>0</x>
+      <y>198</y>
+      <w>2079</w>
+      <h>1364</h>
+    </coordinates>
+    <panel_attributes>ALT
+[!user.isPlanner()]
+fg=#761C8C
+lw=2
+--
+
+-.
+
+
+
+-.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>220</x>
+      <y>0</y>
+      <w>99</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>UI</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>561</x>
+      <y>385</y>
+      <w>550</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+createBlock(turn1, turn2)</panel_attributes>
+    <additional_attributes>10.0;20.0;480.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>671</x>
+      <y>451</y>
+      <w>1353</w>
+      <h>825</h>
+    </coordinates>
+    <panel_attributes>ALT
+(turn1.turnBlock!=null
+
+&amp;&amp; turn2.turnBlock==null)
+fg=#761C8C
+lw=2
+--
+
+-.
+
+
+
+
+
+-.
+
+
+
+
+
+
+
+
+
+
+
+
+
+-.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1485</x>
+      <y>22</y>
+      <w>165</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>turn2:
+Turn
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1859</x>
+      <y>22</y>
+      <w>209</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>er:
+SheetEventReceiver
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1551</x>
+      <y>55</y>
+      <w>33</w>
+      <h>1683</h>
+    </coordinates>
+    <panel_attributes>lt=.
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;1510.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1958</x>
+      <y>66</y>
+      <w>33</w>
+      <h>1672</h>
+    </coordinates>
+    <panel_attributes>lt=.
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;1500.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1551</x>
+      <y>473</y>
+      <w>22</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1100</x>
+      <y>462</y>
+      <w>473</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+setTurnBlock(turn1.turnBlock)</panel_attributes>
+    <additional_attributes>10.0;20.0;410.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1562</x>
+      <y>473</y>
+      <w>253</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+turn2.turnBlock=turn1.Block</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0;40.0;40.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1100</x>
+      <y>561</y>
+      <w>275</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+setTurnBlock(turn2.turnBlock)</panel_attributes>
+    <additional_attributes>10.0;20.0;230.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1353</x>
+      <y>572</y>
+      <w>22</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1364</x>
+      <y>572</y>
+      <w>253</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+turn1.turnBlock=turn2.Block</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0;40.0;40.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>682</x>
+      <y>550</y>
+      <w>220</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>(turn2.turnBlock!=null &amp;&amp; turn1.turnBlock==null)
+style=wordwrap
+fontsize=11
+fg=#761C8C</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>682</x>
+      <y>649</y>
+      <w>275</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>(turn1.turnBlock!=null &amp;&amp; turn2.turnBlock!=null)
+style=wordwrap
+fontsize=11
+fg=#761C8C</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1100</x>
+      <y>726</y>
+      <w>671</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+setTurnBlock(turn1.turnBlock)</panel_attributes>
+    <additional_attributes>10.0;20.0;590.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1749</x>
+      <y>737</y>
+      <w>22</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>704</x>
+      <y>682</y>
+      <w>1298</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>for each
+t in calendar.turns
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1760</x>
+      <y>748</y>
+      <w>220</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+t.turnBlock=turn1.Block</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0;40.0;40.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>682</x>
+      <y>880</y>
+      <w>220</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>(turn1.turnBlock==null &amp;&amp; turn2.turnBlock==null)
+style=wordwrap
+fontsize=11
+fg=#761C8C</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1727</x>
+      <y>891</y>
+      <w>143</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>block:
+Block
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1793</x>
+      <y>935</y>
+      <w>33</w>
+      <h>803</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;710.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1793</x>
+      <y>957</y>
+      <w>22</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1100</x>
+      <y>880</y>
+      <w>649</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+create(turn1, turn2)</panel_attributes>
+    <additional_attributes>10.0;20.0;570.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1100</x>
+      <y>990</y>
+      <w>715</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+block</panel_attributes>
+    <additional_attributes>10.0;20.0;630.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1353</x>
+      <y>1023</y>
+      <w>22</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1100</x>
+      <y>1034</y>
+      <w>275</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+setTurnBlock(block)</panel_attributes>
+    <additional_attributes>10.0;20.0;230.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1364</x>
+      <y>1034</y>
+      <w>209</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+turn1.turnBlock=block</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0;40.0;40.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1551</x>
+      <y>1100</y>
+      <w>22</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1562</x>
+      <y>1111</y>
+      <w>209</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+turn2.turnBlock=block</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0;40.0;40.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1100</x>
+      <y>1111</y>
+      <w>473</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+setTurnBlock(block)</panel_attributes>
+    <additional_attributes>10.0;20.0;410.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1683</x>
+      <y>22</y>
+      <w>154</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>t:
+Turn
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1749</x>
+      <y>66</y>
+      <w>33</w>
+      <h>1683</h>
+    </coordinates>
+    <panel_attributes>lt=.
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;1510.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>858</x>
+      <y>704</y>
+      <w>1122</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>OPT
+t.turnBlock==turn2.turnBlock
+fg=#128C86</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1100</x>
+      <y>396</y>
+      <w>341</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+create</panel_attributes>
+    <additional_attributes>10.0;20.0;290.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1419</x>
+      <y>396</y>
+      <w>110</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>turns:
+Array&lt;Turn&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1100</x>
+      <y>484</y>
+      <w>176</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+turns.add(turn2)</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0;40.0;40.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1100</x>
+      <y>583</y>
+      <w>176</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+turns.add(turn1)</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0;40.0;40.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1100</x>
+      <y>759</y>
+      <w>143</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+turns.add(t)</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0;40.0;40.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1100</x>
+      <y>1144</y>
+      <w>176</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+turns.add(turn1)</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0;40.0;40.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1100</x>
+      <y>1210</y>
+      <w>176</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+turns.add(turn2)</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0;40.0;40.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>275</x>
+      <y>1386</y>
+      <w>1749</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>for each
+t in turns
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
